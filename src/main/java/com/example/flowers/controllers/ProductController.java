@@ -39,6 +39,4 @@ public class ProductController {
         model.addAttribute("authorProduct", product.getUser());
         return "product-info";
     }
-
-
 }
